@@ -1,0 +1,4 @@
+node_modules
+Frontend/**
+git-store.json
+yarn.lock
