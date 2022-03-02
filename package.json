@@ -1,11 +1,11 @@
 {
   "name": "@fmfe/git-store",
-  "version": "0.0.1",
+  "version": "0.0.2-beta4",
   "main": "index.js",
   "license": "MIT",
   "type": "module",
   "bin": {
-    "get-store": "./bin/git-store"
+    "git-store": "./bin/git-store.js"
   },
   "scripts": {
     "dev": "node lib/bin.js"
@@ -16,5 +16,8 @@
     "mkdirp": "^1.0.4",
     "write": "^2.0.0",
     "zx": "^5.2.0"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
   }
 }
