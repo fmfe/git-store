@@ -1,4 +1,6 @@
 node_modules
 Frontend/**
 git-store.json
+git-config.json
 yarn.lock
+.DS_Store
